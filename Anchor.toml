@@ -1,0 +1,16 @@
+[programs.localnet]
+nft_staking = "E1t7mAFARVZG8DoozV38Vyt4jJjcS9GnmWCAtSa8sicq"
+[programs.devnet]
+nft_staking = "DuHcaeT4X25mqmsSxSokZcWvK5aKLhtz4t9xNhamBaE1"
+[programs.mainnet]
+nft_staking = "HgUhsdrdQGWZBejcktTN5pWJPpWoGsrpeLa9Jgp8wfEw" 
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "mainnet"
+wallet = "/Users/sageco/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
